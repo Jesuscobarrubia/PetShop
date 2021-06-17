@@ -1,0 +1,58 @@
+.main_container{
+    width: 900px;
+    margin: 0 auto;
+
+    .seccionUno{
+        a{
+            img{
+                width: 100%;
+            }
+        }
+    }
+
+    .seccionDos{
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        color: #0c98ea;
+        margin: 0px 0px 100px 0;
+
+        &__info{
+            width: 33%;
+        }
+
+        &__icono{
+            color: #000;
+            font-size: 30px;
+        }
+
+        &__parrafo{
+            color: #000;
+        }
+    }
+
+    .seccionTres{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 50px;
+        
+        article{
+            width: 30%;
+
+            img{
+                width: 100%;
+            }
+        }
+
+        &__categoria{
+            transition: all ease 0.3s;
+
+            &:hover{
+                opacity: 0.9;
+                box-shadow: 0px 0px 10px #0c98ea;
+            }
+        }
+    }
+}
+
+

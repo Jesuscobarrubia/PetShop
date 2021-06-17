@@ -1,0 +1,18 @@
+.n-container{
+    max-width: 900px;
+    margin: 0 auto 50px auto;
+
+    &__titulo{
+        color: #0c98ea;
+        margin: 30px 0 15px 0;
+        text-align: center;
+    }
+
+    &__parrafo{
+        margin-bottom: 15px;
+    }
+
+    &__video{
+        width: 100%;
+    }
+}
