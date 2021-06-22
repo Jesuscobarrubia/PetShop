@@ -603,7 +603,7 @@ footer .footer_contacto a {
     display: none;
   }
   .contacto_container .derecha {
-    width: 300px;
+    width: 100%;
   }
 }
 
