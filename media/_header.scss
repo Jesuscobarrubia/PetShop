@@ -1,6 +1,6 @@
 header{
     width: 100%;
-    background: #0c98ea;
+    background: $azul;
 
     .header_container{
         max-width: 1100px;
@@ -17,8 +17,8 @@ header{
         .header_titulo{
             text-align: center;
             padding: 15px 0 50px 0;
-            font-size: 40px;
-            color: #FFE91F;
+            font-size: 2.5rem;
+            color: $amarillo;
             letter-spacing: 5px;
             text-shadow: 0 0 10px #000;
         }
@@ -35,7 +35,7 @@ header{
                     .header_enlace{
                         text-decoration: none;
                         color: white;
-                        font-size: 20px;
+                        font-size: $textoP;
                         transition: all ease 0.3s ;
                         &:hover{
                             color: #000;
@@ -58,6 +58,7 @@ header{
                                 background: rgba(0, 0, 0, 0.425);
                                 color: white;
                                 display: block;
+                                font-size: $textoP;
                             }
                         }   
                     }
@@ -65,7 +66,7 @@ header{
                     &:hover ul{
                         display: block;
                         position: absolute;
-                        background: #0c98ea;
+                        background: $azul;
                         width: 100%;
                         text-align: center;
                     }
@@ -80,7 +81,7 @@ header{
             margin: 15px 15px 0 0;
 
             .icono_carrito{
-                font-size: 30px;
+                font-size: $textoG;
                 color: #fff;
                 transition: all ease 0.3s ;
                 

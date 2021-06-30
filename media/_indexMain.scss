@@ -16,20 +16,22 @@
         display: flex;
         justify-content: space-between;
         text-align: center;
-        color: #0c98ea;
+        color: $azul;
         margin: 0px 0px 100px 0;
 
         &__info{
             width: 33%;
+            font-size: $textoP;
         }
 
         &__icono{
             color: #000;
-            font-size: 30px;
+            font-size: $textoG;
         }
 
         &__parrafo{
             color: #000;
+            font-size: $textoP;
         }
     }
 
@@ -51,7 +53,7 @@
 
             &:hover{
                 opacity: 0.9;
-                box-shadow: 0px 0px 10px #0c98ea;
+                box-shadow: 0px 0px 10px $azul;
             }
         }
     }

@@ -1,11 +1,5 @@
 .header_container{
-
-    .header_titulo{
-        font-size: 2rem;
-    }
-    
     .header_nav{
-
         a{
             text-decoration: none;
         }
@@ -17,14 +11,26 @@
 }
 
 main{
+    .categoria_titulo{
+        font-size: $textoG;
+    }
+
+    .categoria_parrafo{
+        font-size: $textoP;
+    }
+
     .img_descrip{
         transition: all ease 0.3s;
         margin-bottom: 30px;
 
         &:hover{
             opacity: 0.9;
-            box-shadow: 0px 0px 10px #0c98ea; 
+            box-shadow: 0px 0px 10px $azul; 
         }
+    }
+
+    .btn-primary{
+        font-size: $textoP;
     }
 
     // SLIDE
@@ -49,11 +55,21 @@ main{
     }
 
     //VENTANA MODAL
+    .modal-title{
+        font-size: $textoG;
+    }
+
     .modal-body{
         text-align: center;
+
+
+        h2{
+            font-size: $textoG;
+        }
         
         p{
             margin-top: 20px;
+            font-size: $textoP;
         }
     }
 }

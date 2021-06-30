@@ -1,13 +1,13 @@
 footer{
     width: 100%;
-    background: #0c98ea;
+    background: $azul;
     .footer_container{
-        width: 740px;
+        max-width: 1100px;
         margin: 0 auto;
         display: flex;
         justify-content: space-around;
         text-align: center;
-        color: #FFE91F;
+        color: $amarillo;
         background: #0c98ea;
     
         .divNave{
@@ -15,7 +15,7 @@ footer{
         }
     
         h3{
-            font-size: 1.17em;
+            font-size: $textoP;
             font-weight: bold;
             margin-top: 10px;
         }
@@ -23,6 +23,7 @@ footer{
         .footer_nav{
             list-style: none;
             text-align: left;
+            font-size: $textoP;
     
             .footer_nav_enlace{
                 text-decoration: none;
@@ -44,7 +45,7 @@ footer{
                 margin-top: 40px;
         
                 .fa-facebook, .fa-instagram, .fa-twitter{
-                    font-size: 30px;
+                    font-size: $textoG;
                     margin: 0 30px 0 30px;
                     color: #fff;
                     transition: all ease 0.3s;
@@ -61,6 +62,7 @@ footer{
             list-style: none;
             text-align: left;
             margin: 10px 0 0 60px;
+            font-size: $textoP;
     
             .footer_contacto_enlace{
                 color: #fff;

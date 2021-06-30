@@ -3,7 +3,8 @@ main{
     h2{
         text-align: center;
         margin: 30px 0 15px 0;
-        color: #0c98ea;
+        color: $azul;
+        font-size: $textoG;
     }
 
     .main_container_productos{
@@ -26,7 +27,7 @@ main{
                 transition: all ease 1s;
                 &:hover{
                     border-radius: 15px;
-                    border: 3px solid #0c98ea;
+                    border: 3px solid $azul;
                 }
             }
         }
